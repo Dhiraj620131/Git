@@ -1,0 +1,145 @@
+/* button {
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+} */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
+}
+.container {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    max-width: 1000px;
+    
+
+}
+.left-section {
+    width:50%;
+}
+.logo {
+    color:#0866ff;
+    
+    font-size: 50px;
+    font-weight: bold;
+    /* margin: -28px; */
+}
+.tagline {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+
+
+}
+.right-section {
+    width:50%;
+}
+.login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 grey;
+    margin-top: 100px;
+}
+.login-box input {
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    
+}
+
+.login {
+    background-color: #0866ff;
+    color:#ffffff;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding:10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;   
+}
+.login:hover {
+    background-color: #325ea8;
+
+}
+.forget-password{
+    color:#0866ff;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    
+
+}
+.forget-password:hover, .create-page a:hover {
+    text-decoration: underline;
+    color: #325ea8;
+}
+
+hr {
+    margin: 20px 0;
+}
+.create-btn {
+    background-color: #42b72a;;
+    width:50%;
+
+    border-radius: 5px;
+    border:none;
+    padding:0 16px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 48px;
+    cursor: pointer;
+    color:#fff;
+    margin-left: 17vh;
+    text-decoration: none;
+    text-wrap: none;
+
+    /* box-sizing:border-box; */
+    font-family: 17px Arial, Helvetica, sans-serif;
+}
+.create-btn:hover {
+    background-color: darkgreen;
+}
+.create-page {
+    text-align: center;
+    margin-top:10px;
+  
+
+
+}
+.create-page a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
